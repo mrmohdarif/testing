@@ -36,6 +36,9 @@ let questionIndex = 0;
 app.get('/', (req, res) => {
  res.send("Hello, please introduce yourself.");
 })
+app.get('/test', (req, res) => {
+ res.send("Hello,testing.");
+})
 
 
 app.listen(5000, () => console.log('✅ Static Interview Backend running on port 5000 🚀'));
