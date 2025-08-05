@@ -34,10 +34,10 @@ let questionIndex = 0;
 // });
 
 app.get('/', (req, res) => {
- res.send("Hello, please introduce yourself.vcvcvcvcv");
+ res.send("Hello, please introduce yourself.vcvcvcvcv ddddd");
 })
 app.get('/testing', (req, res) => {
- res.send("How do you handle project deadlines under pressure?vcvcvcvcvcdf");
+ res.send("How do you handle project deadlines under pressure?vcvcvcvcvcdf ffffff");
 })
 
 
